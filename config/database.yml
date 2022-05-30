@@ -1,0 +1,19 @@
+default: &default
+  adapter: "postgresql"
+  encoding: "unicode"
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+
+development:
+  <<: *default
+  host: 127.0.0.1
+  port: <%= ENV.fetch("POSTGRES_PORT") { 5432 } %>
+  database: <%= ENV.fetch("POSTGRES_DB") { "pixel_china" } %>
+  database: <%= ENV.fetch("POSTGRES_DB") { "pixel_china_development" } %>
+
+test:
+  <<: *default
+  database: <%= ENV.fetch("POSTGRES_DB") { "pixel_china_test" } %>
+
+production:
+  <<: *default
+  database: <%= ENV.fetch("POSTGRES_DB") { "pixel_china_production" } %>

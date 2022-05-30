@@ -1,0 +1,19 @@
+zh-CN:
+  activerecord:
+    models:
+      admin_user: 后台用户
+    attributes:
+      admin_user:
+        id: ID
+        email: 邮箱
+        password: 密码
+        password_confirmation: 密码确认
+        last_sign_in_at: 最后登录时间
+        last_sign_in_ip: 最后登录IP
+        current_sign_in_at: 当前登录时间
+        current_sign_in_ip: 当前登录IP
+        sign_in_count: 登录次数
+    # enums:
+    #   admin_user:
+    #     display:
+    #       single: v

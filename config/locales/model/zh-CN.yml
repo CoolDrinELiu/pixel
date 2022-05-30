@@ -1,0 +1,13 @@
+zh-CN:
+  activerecord:
+    models:
+      admin_user: 后台用户
+      comment: 留言
+  attributes:
+    id: ID
+    created_at: 创建时间
+    updated_at: 更新时间
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries: 内容
