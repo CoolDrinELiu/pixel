@@ -156,6 +156,8 @@ GEM
       colorize (~> 0.7)
       ruby_parser (>= 3.19.1)
     ffi (1.15.5)
+    font-awesome-rails (4.7.0.8)
+      railties (>= 3.2, < 8.0)
     formtastic (4.0.0)
       actionpack (>= 5.2.0)
     formtastic_i18n (0.7.0)
@@ -428,6 +430,7 @@ DEPENDENCIES
   factory_bot_rails
   faker
   fasterer
+  font-awesome-rails
   jbuilder
   jsbundling-rails
   jsonapi-rspec

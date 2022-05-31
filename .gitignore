@@ -41,3 +41,8 @@ yarn-debug.log*
 tmp
 .env
 .idea
+/app/assets/builds/*
+!/app/assets/builds/.keep
+/app/assets/builds/*
+!/app/assets/builds/.keep
+public/assets/

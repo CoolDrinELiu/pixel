@@ -33,3 +33,13 @@
   overcommit --sign pre-commit
   overcommit --run
 ```
+
+### 压缩css
+```shell
+  yarn run build:css
+```
+
+### 本地启动服务
+```shell
+  foreman start -f Procfile.dev
+```
