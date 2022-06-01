@@ -80,6 +80,3 @@ gem 'activeadmin'
 gem 'cancancan'
 gem 'draper'
 gem 'pundit'
-
-# Fontawesome
-gem "font-awesome-rails"
